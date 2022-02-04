@@ -4,7 +4,7 @@ namespace App;
 
 class QueueService {
     
-    public $listHelper;
+    protected $listHelper;
     
     public function __construct(HelperInterface $helper) {
         $this->listHelper = $helper;

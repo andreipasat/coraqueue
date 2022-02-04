@@ -3,7 +3,7 @@ namespace App;
 
 class CacheAdapter implements AdapterInterface {
     
-    public $filename;
+    protected $filename;
     
     public function __construct() {
         $this->filename = 'queue_cache_file';

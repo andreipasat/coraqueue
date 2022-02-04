@@ -3,8 +3,8 @@ namespace App;
 
 class ArrayHelper implements HelperInterface {
     
-    public $adapter;
-    public $list;
+    protected $adapter;
+    protected $list;
     
     public function __construct(AdapterInterface $adapter) {
         $this->adapter = $adapter;
